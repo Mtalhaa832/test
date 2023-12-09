@@ -1,0 +1,48 @@
+.wwq{
+    background-color: darkslategray;
+    color: aliceblue;
+}
+.www{
+    display: inline;
+   margin: 150px;
+}
+#eee{
+    background-color: cornflowerblue;
+    width: 1400px;
+    height: 700px;
+    text-align: center;
+}
+.wwww{
+flex-direction: column;
+    /* display: flex; */
+    background-color: darkgray;
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid;
+    margin-top: ; */
+}
+#abs{
+    background-color: darkgrey;
+    width:1350px ;
+    height: 500px;
+   
+}
+#cos{
+    width:1500px ;
+    height: 500px;
+    text-align: center;
+}
+.aa{
+    text-align: center;
+}
+button{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 70px;
+}
+.ii{
+    
+    width: 1100px;
+    height: 35px;
+}
