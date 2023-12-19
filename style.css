@@ -1,48 +1,91 @@
+
 .wwq{
     background-color: darkslategray;
     color: aliceblue;
+    font-size: 20px;
+    
+    
 }
-.www{
-    display: inline;
-   margin: 150px;
+#www{
+   display: flex;
+ justify-content:flex-end;
+ flex-wrap: wrap;
+}
+#www>div{
+    margin: 10px;
+    font-size: 20px;
 }
 #eee{
     background-color: cornflowerblue;
-    width: 1400px;
-    height: 700px;
+    height: 700px;  
+flex-wrap: wrap;
+margin-top: 10px;
+display: flex;
+justify-content: center;
+}
+#eee>div{
     text-align: center;
+    font-size: 20px;
+   
 }
 .wwww{
-flex-direction: column;
-    /* display: flex; */
-    background-color: darkgray;
-    width: 300px;
-    height: 300px;
-    /* border: 1px solid;
-    margin-top: ; */
+
+    display: flex;
+    background-color:white;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-around;
+}
+.wwww>div{
+    margin: 10px;
+    height:300px;
+    width: 400px;
+    border: 1px solid;
+    background-color:darkgray ;
+    text-align: center;
+
 }
 #abs{
     background-color: darkgrey;
-    width:1350px ;
     height: 500px;
-   
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#abs>div{
+    text-align: center;
+    font-size: 20px;
 }
 #cos{
-    width:1500px ;
     height: 500px;
-    text-align: center;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;   
 }
-.aa{
+#cos>div{
     text-align: center;
-}
-button{
-    display: block;
-    margin: auto;
-    width: 200px;
-    height: 70px;
+    font-size: 20px;
 }
 .ii{
-    
+
+    text-align: center;
+    font-size: 20px;
+}
+#btn{   
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    width: 200px;
+    height: 70px;
+     flex-wrap:wrap ;
+    display: flex;
+    justify-content: center;
+}
+button:hover{
+    background-color: greenyellow;
+}
+.ii{
+   
     width: 1100px;
     height: 35px;
 }
